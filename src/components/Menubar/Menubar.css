@@ -1,0 +1,68 @@
+.MenuBar {
+    color: rgba(0, 0, 0, 0.87);
+    transition: transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    transform: translate(0px, 0px);
+    overflow: hidden;
+    vertical-align: left;
+    width:350px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .MenuTitle {
+    font-size: 16px;
+    font-weight: 300;
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .MenuLabelContainer {
+    display: block;
+    height: 100%;
+  }
+  
+  
+  
+  .MenuItem {
+    position: relative;
+    padding: 15px 0;
+  }
+  
+  .MenuItem:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .MenuButton {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    transition: all 0.3s;
+  }
+  
+  .MenuItem.open .MenuButton {
+    transform: scaleY(-1);
+  }
+  
+  .MenuLink {
+    display: block;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+  }
+
+  li{
+    list-style-type: none;
+    margin-left: 50px;
+  }
+  
