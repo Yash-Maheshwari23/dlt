@@ -3,9 +3,9 @@ import './Header.css'
 import logo from '../../assets/images/logo.png';
 const Header = () => {
   return (
-    <div>
+    <div className="header-div">
     <header className="header">
-        <div className="container" >  
+        <div className="container container1" >  
             <img src={logo} alt="Airtel" className="logo-img" />
         </div>
     </header>

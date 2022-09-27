@@ -19,7 +19,7 @@
 }
 .header {
     background:#ffffff;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1071;
     border-bottom: 1px solid #eee;
@@ -34,4 +34,8 @@
     margin-right: 1100px;
 
 }
+.header-div{
+    /* position: fixed; */
+}
+
 

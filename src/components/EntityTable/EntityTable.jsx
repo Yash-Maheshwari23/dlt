@@ -18,8 +18,8 @@ const EntityTable = () => {
                   <input type="text" placeholder="Search Reference Id" />
                 </div>
               </div>
-              <div class="col-sm-3">
-                <div class="form-group form-inline">
+              <div className="col-sm-3">
+                <div className="form-group form-inline">
                   <input type="text" placeholder="Search Registration Id" />
                 </div>
               </div>

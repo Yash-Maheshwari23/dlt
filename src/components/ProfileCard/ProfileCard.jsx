@@ -35,11 +35,11 @@ const ProfileCard = () => {
                 
             </div>
             <p className='profile-details'><i className="bi bi-person" style={{marginRight:"3px"}}/>Name: <span className='ml-10'>Saumya Sharma</span></p>
-            <p className='profile-details'><i class="bi bi-envelope" style={{marginRight:"3px"}}/>Email: <span className='ml-10'>Saumya1@gmail.com</span></p>
-            <p className='profile-details'><i class="bi bi-telephone" style={{marginRight:"3px"}}/>Contact: <span className='ml-9'>9633247624</span></p>
+            <p className='profile-details'><i className="bi bi-envelope" style={{marginRight:"3px"}}/>Email: <span className='ml-10'>Saumya1@gmail.com</span></p>
+            <p className='profile-details'><i className="bi bi-telephone" style={{marginRight:"3px"}}/>Contact: <span className='ml-9'>9633247624</span></p>
             <h5 className="card-title mt-15 ml-10">Business Details</h5>
             <p className='profile-details'><i className="bi bi-credit-card" style={{marginRight:"3px"}}/>PAN: <span className='ml-20'>ABCDE2345K</span></p>
-            <p className='profile-details'><i class="bi bi-credit-card" style={{marginRight:"3px"}}/>GST: <span className='ml-20'>27ASDFGJ3478394</span></p>
+            <p className='profile-details'><i className="bi bi-credit-card" style={{marginRight:"3px"}}/>GST: <span className='ml-20'>27ASDFGJ3478394</span></p>
                 </div>
             </div>
         </div>

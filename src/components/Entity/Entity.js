@@ -2,7 +2,7 @@ import React from 'react'
 import EntityTable from '../EntityTable/EntityTable';
 import HeaderCard from '../HeaderCard/HeaderCard';
 
-import LeftBar from '../Leftbar/LeftBar';
+ import LeftBar from '../Leftbar/LeftBar';
 import NoteCard from '../NoteCard/NoteCard';
 
 import ScrubbingReport from '../ScrubbingReport/ScrubbingReport';
@@ -12,8 +12,8 @@ const Entity = () => {
     <div>
         <div className="main-content-div col-sm-12">
   {/* <!--Row with two equal columns--> */}
-        <div className="row">
-        <div className="col-sm-3 ml-0">
+        <div className="row row1">
+        <div className="col-sm-3 ml-0 leftbar1" style={{backgroundColor:"white"}}>
             <LeftBar/>
         </div>
         <div className="col-sm-9 main-content-panel">
