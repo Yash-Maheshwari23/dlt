@@ -1,5 +1,5 @@
 import React from 'react'
-import EntityTable from '../EntityTable/EntityTable';
+// import EntityTable from '../EntityTable/EntityTable';
 import HeaderCard from '../HeaderCard/HeaderCard';
 
  import LeftBar from '../Leftbar/LeftBar';
@@ -21,7 +21,7 @@ const Entity = () => {
             <div className="principal-entity pt-10">
             <h4>Welcome to Airtel Commercial Communications</h4>
             <HeaderCard/>
-            <EntityTable/>
+            {/* <EntityTable/> */}
             <NoteCard/>
             <ScrubbingReport/>
             </div>

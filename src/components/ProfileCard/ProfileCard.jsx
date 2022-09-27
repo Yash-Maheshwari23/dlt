@@ -6,7 +6,7 @@ const ProfileCard = () => {
         
                 <div className="card profile-card" style={{height:"300px"}}>
                     <div className="card-body">
-                    <h5 className="card-title mt-15">Saumya1@gmail.com</h5>
+                    <h5 className="card-title mt-15">Account Details</h5>
                     <div className="row">
                     {/* <form className="entity-registration">
                 <div className="col-md-12">
@@ -26,20 +26,19 @@ const ProfileCard = () => {
                 </div>
                 
               </form> */}
-                <div className="progress mt-15 ml-20" style={{width:"300px"}}>
-                    <div className="progress-bar " role="progressbar" style={{width: "100%"}} ></div>
-                    
-                </div>
-                <p className='progress-text'>100% Complete</p>
-                <h5 className="card-title mt-15 ml-20">Profile Details</h5>
+              
                 
             </div>
-            <p className='profile-details'><i className="bi bi-person" style={{marginRight:"3px"}}/>Name: <span className='ml-10'>Saumya Sharma</span></p>
-            <p className='profile-details'><i className="bi bi-envelope" style={{marginRight:"3px"}}/>Email: <span className='ml-10'>Saumya1@gmail.com</span></p>
-            <p className='profile-details'><i className="bi bi-telephone" style={{marginRight:"3px"}}/>Contact: <span className='ml-9'>9633247624</span></p>
-            <h5 className="card-title mt-15 ml-10">Business Details</h5>
-            <p className='profile-details'><i className="bi bi-credit-card" style={{marginRight:"3px"}}/>PAN: <span className='ml-20'>ABCDE2345K</span></p>
-            <p className='profile-details'><i className="bi bi-credit-card" style={{marginRight:"3px"}}/>GST: <span className='ml-20'>27ASDFGJ3478394</span></p>
+            <p className='profile-details'>Entity Name: <span className='ml-35'>neworg</span></p>
+            <p className='profile-details'>Type: <span className='ml-80'>ENTERPRISE</span></p>
+            <p className='profile-details'>Reference ID: <span className='ml-30'>AIR0332428885</span></p>
+            <p className='profile-details'>Status: <span className='ml-70'>Registered</span></p>
+            <p className='profile-details'>Creation Date: <span className='ml-25'>Oct 09, 2020</span></p>
+            <p className='profile-details'>Registration ID: <span className='ml-20'>1001064046237011899</span></p>
+                </div>
+                <div className="row">
+                  <button className="btn btn-sm button1" id="registerationButton" tabIndex="4">View Entity Details
+                  </button>
                 </div>
             </div>
         </div>

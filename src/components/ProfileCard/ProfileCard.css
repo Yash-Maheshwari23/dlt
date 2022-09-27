@@ -2,10 +2,14 @@
     margin-top: 9px;
 }
 .profile-details {
-    margin-left: 100px;
+    margin-left: 65px;
     font-size: 14px;
 }
 .profile-card{
     background-color: #8fc0d8;
     opacity: 0.8;
+}
+.button1 {
+    margin-left: 190px;
+    margin-bottom: 30px;
 }
