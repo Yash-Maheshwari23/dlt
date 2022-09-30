@@ -99,7 +99,7 @@ const LeftBar = () => {
   // added styles
   const styles = {
     sideBarHeight: {
-      height: "65vh",
+      // height: "65vh",
       //width: "250px",
       marginLeft:"0px",
       position:"fixed",

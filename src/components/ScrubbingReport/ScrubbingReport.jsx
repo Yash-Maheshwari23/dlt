@@ -7,7 +7,7 @@ const ScrubbingReport = () => {
   return (
     <div>
         <div className="row mt-30">
-            <div className="col-sm-6">
+            {/* <div className="col-sm-6">
                 <div className="card" style={{height:"300px"}}>
                     <div className="card-body">
                     <h5 className="card-title mt-20">Scrubbing Report</h5>
@@ -33,8 +33,8 @@ const ScrubbingReport = () => {
             </div>
                 </div>
             </div>
-        </div>
-        <div className="col-sm-6">
+        </div> */}
+        <div className="col">
         <ProfileCard/>
         </div>
     </div>

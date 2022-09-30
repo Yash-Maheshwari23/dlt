@@ -4,7 +4,7 @@ import HeaderCard from '../HeaderCard/HeaderCard';
 
  import LeftBar from '../Leftbar/LeftBar';
 import NoteCard from '../NoteCard/NoteCard';
-
+import ProgressBar from '../ProgressBar/ProgressBar';
 import ScrubbingReport from '../ScrubbingReport/ScrubbingReport';
 import './Entity.css';
 const Entity = () => {
@@ -19,11 +19,14 @@ const Entity = () => {
         <div className="col-sm-9 main-content-panel">
           <div className="pb-80">
             <div className="principal-entity pt-10">
+               <ProgressBar/>
             <h4>Welcome to Airtel Commercial Communications</h4>
             <HeaderCard/>
             {/* <EntityTable/> */}
-            <NoteCard/>
+           
             <ScrubbingReport/>
+            <NoteCard/>
+            
             </div>
             </div>
 
