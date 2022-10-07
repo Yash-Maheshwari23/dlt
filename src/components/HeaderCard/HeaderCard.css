@@ -4,3 +4,7 @@
 .sub-card{
     font-size: xx-small;
 }
+.header-card{
+    background-color: aqua;
+    border-radius: 40px;
+}

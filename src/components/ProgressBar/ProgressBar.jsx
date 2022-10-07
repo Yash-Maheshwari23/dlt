@@ -9,7 +9,7 @@ import "./ProgressBar.css";
 const noob = [
   { level: 1, finished: true },
   { level: 2, finished: true },
-  { level: 3, finished: false }
+  { level: 3, finished: true }
 ];
 const ProgressBar=()=> {
   return (

@@ -39,7 +39,7 @@ export const Step = styled.div`
 `;
 
 export const Bar = styled.div`
-  width: 120px;
+  width: 400px;
   height: 5px;
   background-color: lightgray;
   /*background-color: ${({ completed }) =>
@@ -47,7 +47,7 @@ export const Bar = styled.div`
   */
     &:before {
       content: "";
-      width: ${({ completed }) => (completed ? "120px" : "0")};
+      width: ${({ completed }) => (completed ? "400px" : "0")};
       height: 5px;
       background-color: rgb(248, 168, 21);
       position: absolute;

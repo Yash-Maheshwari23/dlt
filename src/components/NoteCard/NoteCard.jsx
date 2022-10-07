@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './NoteCard.css'
 const NoteCard = () => {
   return (
     <div>
-        <div className="card text-dark bg-info mb-3 mt-30" >
+        <div className="card note-card text-dark bg-info mb-3 mt-30" >
         <div className="card-header">Notes</div>
         <div className="card-body">
             {/* <h5 className="card-title">Info card title</h5>

@@ -34,7 +34,7 @@ const ScrubbingReport = () => {
                 </div>
             </div>
         </div> */}
-        <div className="col">
+        <div className="col-sm-6">
         <ProfileCard/>
         </div>
     </div>

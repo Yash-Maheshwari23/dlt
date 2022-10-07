@@ -8,6 +8,7 @@
 .profile-card{
     background-color: #8fc0d8;
     opacity: 0.8;
+    border-radius: 10px;
 }
 .button1 {
     margin-left: 190px;
