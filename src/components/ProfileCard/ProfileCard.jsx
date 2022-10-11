@@ -1,6 +1,12 @@
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 import './ProfileCard.css'
 const ProfileCard = () => {
+  const [candidateInfo, setCandidateInfo] = useState([]);
+  const infoData = [{EntityName:'neworg', TYPE:'ENTERPRISE', ReferenceId:'AIR0332428885', status:'Registered', CreationDate:'Oct 09, 2020', RegistrationId:'1001064046237011899'}]
+
+  useEffect(()=>{
+    setCandidateInfo(infoData[0]);
+  },[])
   return (
     <div>
         
@@ -29,12 +35,12 @@ const ProfileCard = () => {
               
                 
             </div>
-            <p className='profile-details'>Entity Name: <span className='ml-35'>neworg</span></p>
-            <p className='profile-details'>Type: <span className='ml-80'>ENTERPRISE</span></p>
-            <p className='profile-details'>Reference ID: <span className='ml-30'>AIR0332428885</span></p>
-            <p className='profile-details'>Status: <span className='ml-70'>Registered</span></p>
-            <p className='profile-details'>Creation Date: <span className='ml-25'>Oct 09, 2020</span></p>
-            <p className='profile-details'>Registration ID: <span className='ml-20'>1001064046237011899</span></p>
+            <p className='profile-details'>Entity Name: <span className='ml-35'>{candidateInfo.EntityName}</span></p>
+            <p className='profile-details'>Type: <span className='ml-80'>{candidateInfo.TYPE}</span></p>
+            <p className='profile-details'>Reference ID: <span className='ml-30'>{candidateInfo.ReferenceId}</span></p>
+            <p className='profile-details'>Status: <span className='ml-70'>{candidateInfo.status}</span></p>
+            <p className='profile-details'>Creation Date: <span className='ml-25'>{candidateInfo.CreationDate}</span></p>
+            <p className='profile-details'>Registration ID: <span className='ml-20'>{candidateInfo.RegistrationId}</span></p>
                 </div>
                 <div className="row">
                   <button className="btn btn-sm button1" id="registerationButton" tabIndex="4">View Entity Details

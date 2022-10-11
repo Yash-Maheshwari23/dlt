@@ -1,7 +1,6 @@
 import React from 'react'
 import './HeaderSubCard.css'
 const HeaderSubCard = (props) => {
-console.log(props);
 const {Name,Total,Approved,Pending,Rejected}=props.data;
   return (
     <div className="col-sm-4">
